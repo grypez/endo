@@ -26,3 +26,4 @@ async function testSection(name, t) {
 }
 
 test('trivial (test of test setup)', async t => testSection('trivial', t));
+test('A counter example', async t => testSection('counter-example', t));
